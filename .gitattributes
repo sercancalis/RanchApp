@@ -1,4 +1,4 @@
-*.cshtml linguist-language=C#
+*.cshtml linguist-language=Asp.Net MVC
 *.html linguist-detectable=false
 *.xml linguist-detectable=false
 *.css linguist-detectable=false
