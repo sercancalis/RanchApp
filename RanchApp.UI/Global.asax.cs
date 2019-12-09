@@ -28,7 +28,7 @@ namespace RanchApp.UI.MVC
                 .SetDataCompatibilityLevel(CompatibilityLevel.Version_170)
                 .UseSimpleAssemblyNameTypeSerializer()
                 .UseRecommendedSerializerSettings()
-                .UseSqlServerStorage("Server=hostsql1.isimtescil.net; Database=pmuhenM6_ranch1; uid=pmuhenM6_ranch1; pwd=Kg8WMLD9", new SqlServerStorageOptions
+                .UseSqlServerStorage("", new SqlServerStorageOptions
                 {
                     CommandBatchMaxTimeout = TimeSpan.FromMinutes(5),
                     SlidingInvisibilityTimeout = TimeSpan.FromMinutes(5),
