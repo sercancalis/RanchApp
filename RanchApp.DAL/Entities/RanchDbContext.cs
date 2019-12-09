@@ -10,7 +10,7 @@ namespace RanchApp.DAL.Entities
 {
     public class RanchDbContext:DbContext
     {
-        public RanchDbContext():base("Server=hostsql1.isimtescil.net; Database=pmuhenM6_ranch1; uid=pmuhenM6_ranch1; pwd=Kg8WMLD9")
+        public RanchDbContext():base("")
         {
             
         }
