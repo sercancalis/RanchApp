@@ -60,7 +60,7 @@ namespace RanchApp.BLL
                     sc.Port = 587;
                     sc.EnableSsl = false;
                     sc.UseDefaultCredentials = false;
-                    sc.Credentials = new NetworkCredential("info@muhendisbeysut.com", "Jh44Hwtg");
+                    sc.Credentials = new NetworkCredential("info@muhendisbeysut.com", "SIFRE");
                     sc.TargetName = "STARTTLS/smtp.muhendisbeysut.com";
                     MailMessage mail = new MailMessage();
                     mail.From = new MailAddress("info@muhendisbeysut.com", "ÇiftlikApp Bilgilendirme");
@@ -101,7 +101,7 @@ namespace RanchApp.BLL
                     sc.Port = 587;
                     sc.EnableSsl = false;
                     sc.UseDefaultCredentials = false;
-                    sc.Credentials = new NetworkCredential("info@muhendisbeysut.com", "Jh44Hwtg");
+                    sc.Credentials = new NetworkCredential("info@muhendisbeysut.com", "SIFRE");
                     sc.TargetName = "STARTTLS/smtp.muhendisbeysut.com";
                     MailMessage mail = new MailMessage();
                     mail.From = new MailAddress("info@muhendisbeysut.com", "ÇiftlikApp Bilgilendirme");
